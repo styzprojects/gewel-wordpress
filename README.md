@@ -2,7 +2,7 @@
 
 ## Launch your local env
 ```
-$ docker-compse up
+$ docker-compose up
 ```
 or 
 ```
