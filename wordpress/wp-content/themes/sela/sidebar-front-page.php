@@ -20,23 +20,26 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
     ]);
     if ( $query->have_posts() ):
 ?>
-    <div class="front-widget-heading">
-        <h2>NEWS</h2>
-    </div>
-    <div class="widget-area front-widget-area" role="complementary">
-        <?php while ( $query->have_posts() ): ?>
-            <?php $query->the_post() ?>
-            <div class="widget-area">
-                <aside class="widget widget_text">
-                    <div class="textwidget">
-                        <a href="https://selademo.wordpress.com/page-templates/full-width-page/" class="front-widget">
-                            <img src="<?php echo get_the_post_thumbnail_url() ?>">
-                        </a>
-                        <h3 class="widget-title"><?php the_title() ?></h3>
-                    </div>
-                </aside>
-            </div>
-        <?php endwhile; ?>
+    <div class="front-widget">
+        <div class="front-widget-heading">
+            <h2>NEWS</h2>
+        </div>
+        <div class="widget-area front-widget-area" role="complementary">
+            <?php while ( $query->have_posts() ): ?>
+                <?php $query->the_post() ?>
+                <div class="widget-area">
+                    <aside class="widget widget_text">
+                        <div class="textwidget">
+                            <a href="https://selademo.wordpress.com/page-templates/full-width-page/" class="front-widget-image"">
+                                <img src="<?php echo get_the_post_thumbnail_url() ?>">
+                            </a>
+                            <h3 class="widget-title"><?php the_title() ?></h3>
+                        </div>
+                    </aside>
+                </div>
+            <?php endwhile; ?>
+        </div>
+        <a href="/news/" class="front-widget-read-more">もっとみる</a>
     </div>
 <?php endif ?>
 
@@ -48,29 +51,38 @@ $query = new WP_Query([
 ]);
 if ( $query->have_posts() ):
     ?>
-    <div class="front-widget-heading">
-        <h2>インクルージョンラボ</h2>
-    </div>
-    <div class="widget-area front-widget-area" role="complementary">
-        <?php while ( $query->have_posts() ): ?>
-            <?php $query->the_post() ?>
-            <div class="widget-area">
-                <aside class="widget widget_text">
-                    <div class="textwidget">
-                        <a href="https://selademo.wordpress.com/page-templates/full-width-page/" class="front-widget">
-                            <img src="<?php echo get_the_post_thumbnail_url() ?>">
-                        </a>
-                        <h3 class="widget-title"><?php the_title() ?></h3>
-                    </div>
-                </aside>
-            </div>
-        <?php endwhile; ?>
+    <div class="front-widget">
+        <div class="front-widget-heading">
+            <h2>インクルージョンラボ</h2>
+        </div>
+        <div class="widget-area front-widget-area" role="complementary">
+            <?php while ( $query->have_posts() ): ?>
+                <?php $query->the_post() ?>
+                <div class="widget-area">
+                    <aside class="widget widget_text">
+                        <div class="textwidget">
+                            <a href="https://selademo.wordpress.com/page-templates/full-width-page/" class="front-widget-image">
+                                <img src="<?php echo get_the_post_thumbnail_url() ?>">
+                            </a>
+                            <h3 class="widget-title"><?php the_title() ?></h3>
+                        </div>
+                    </aside>
+                </div>
+            <?php endwhile; ?>
+        </div>
+        <a href="/inclusion-lab/" class="front-widget-read-more">もっとみる</a>
     </div>
 <?php endif ?>
 
 
 <style>
-    .front-widget > img {
+    .front-widget {
+        border: 1px solid #f2f2f2;
+    }
+    .front-widget-area {
+        border: none;
+    }
+    .front-widget-image > img {
         width: 100%;
     }
     .front-widget-heading {

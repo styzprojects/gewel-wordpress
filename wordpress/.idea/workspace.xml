@@ -92,8 +92,8 @@
       <file leaf-file-name="sidebar-front-page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sela/sidebar-front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="-485">
+              <caret line="32" column="127" lean-forward="false" selection-start-line="32" selection-start-column="127" selection-end-line="32" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -271,12 +271,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494855565454</updated>
-      <workItem from="1494855568206" duration="3262000" />
+      <workItem from="1494855568206" duration="4023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3262000" />
+    <option name="totallyTimeSpent" value="4023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sela/sidebar-front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="-485">
+          <caret line="32" column="127" lean-forward="false" selection-start-line="32" selection-start-column="127" selection-end-line="32" selection-end-column="127" />
           <folding />
         </state>
       </provider>
