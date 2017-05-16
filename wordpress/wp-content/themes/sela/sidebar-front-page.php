@@ -40,7 +40,7 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
             <?php endwhile; ?>
         </div>
 		<div class="front-widget-read-more-holder">
-			<a href="/news/" class="front-widget-read-more">もっとみる</a>
+			<a href="/category/news/" class="front-widget-read-more">もっとみる</a>
 		</div>
 
     </div>
@@ -74,7 +74,7 @@ if ( $query->have_posts() ):
             <?php endwhile; ?>
         </div>
 		<div class="front-widget-read-more-holder">
-        	<a href="/inclusion-lab/" class="front-widget-read-more">もっとみる</a>
+        	<a href="/category/inclusion-lab/" class="front-widget-read-more">もっとみる</a>
 		</div>
     </div>
 <?php endif ?>
