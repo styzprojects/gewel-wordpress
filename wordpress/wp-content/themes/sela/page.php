@@ -6,6 +6,12 @@
  */
 
 get_header(); ?>
+    <div class="breadcrumbs" style="margin-bottom: 20px; padding-top: 3em; padding-left: 55px;">
+        <?php if(function_exists('bcn_display'))
+        {
+            bcn_display();
+        }?>
+    </div>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -15,12 +21,6 @@ get_header(); ?>
 
 		<?php rewind_posts(); ?>
 
-        <div class="breadcrumbs">
-            <?php if(function_exists('bcn_display'))
-            {
-                bcn_display();
-            }?>
-        </div>
 
 		<div class="content-wrapper <?php echo sela_additional_class(); ?>">
 			<div id="primary" class="content-area">

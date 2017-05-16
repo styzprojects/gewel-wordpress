@@ -6,8 +6,7 @@
  */
 
 get_header(); ?>
-
-    <div class="breadcrumbs">
+    <div class="breadcrumbs" style="margin-bottom: 20px;">
         <?php if(function_exists('bcn_display'))
         {
             bcn_display();

@@ -293,16 +293,12 @@ function sela_post_thumbnail() {
 	if ( is_singular() ) :
 	?>
 
-	<div class="post-thumbnail">
-		<?php the_post_thumbnail(); ?>
-	</div>
+	<div class="post-thumbnail" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center; background-size: cover; height: 200px;"></div>
 
 	<?php else : ?>
 
 	<div class="post-thumbnail">
-		<a href="<?php the_permalink(); ?>">
-		 <?php the_post_thumbnail(); ?>
-		</a>
+		<a href="<?php the_permalink(); ?>" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center; background-size: cover; height: 200px; display: block;"></a>
 	</div>
 
 	<?php endif; // End is_singular()
