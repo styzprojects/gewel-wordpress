@@ -77,7 +77,7 @@ q {
 	quotes: "" "";
 }
 a {
-	color: #e1122a;
+	color: #40ab6c;
 	text-decoration: none;
 }
 a:hover,
@@ -920,7 +920,7 @@ textarea {
 	color: #6d6d6d;
 }
 .footer-widget-area a:hover {
-	color: #e1122a;
+	color: #40ab6c;
 }
 .first.footer-widgets,
 .second.footer-widgets {
@@ -1086,7 +1086,7 @@ textarea {
 	color: #333;
 }
 .entry-title a:hover {
-	color: #e1122a;
+	color: #40ab6c;
 }
 .entry-meta {
 	font-family: "Droid Serif", Georgia, serif;
@@ -1850,7 +1850,7 @@ video {
 	}
 	.main-navigation ul ul a:hover,
 	.main-navigation ul ul > li.focus > a {
-		color: #e1122a;
+		color: #40ab6c;
 	}
 	.main-navigation ul ul a {
 		color: #4f4f4f;
