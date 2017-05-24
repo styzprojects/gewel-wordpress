@@ -134,7 +134,7 @@ if ( $query->have_posts() ):
 		padding: 5px 40px;
 		text-align: center;
 		color: #fff;
-		background: #f25f70;
+		background: #40ab6c;
 	}
     .front-widget-heading {
         padding: 3em 4.661% 0;

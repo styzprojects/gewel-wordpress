@@ -317,7 +317,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 #infinite-handle span {
-	background-color: #f25f70;
+	background-color: #40ab6c;
 	border-style: none;
 	color: #fff;
 	cursor: pointer;
@@ -398,7 +398,7 @@ input[type="password"]:focus,
 input[type="search"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-	border: 1px solid #f25f70;
+	border: 1px solid #40ab6c;
 	outline: none;
 	-webkit-transition: 0.2s ease-in;
 			transition: 0.2s ease-in;
@@ -444,7 +444,7 @@ textarea {
 --------------------------------------------------------------*/
 
 .main-navigation {
-	background-color: #f25f70;
+	background-color: #40ab6c;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 	color: #fff;
 	display: block;
@@ -571,7 +571,7 @@ textarea {
 			border-radius: 50%;
 }
 .social-links ul a:before {
-	background: #f25f70;
+	background: #40ab6c;
 	color: #fff;
 	content: "\f415";
 	display: block;
@@ -1241,7 +1241,7 @@ blockquote cite {
 	margin-bottom: 1em;
 }
 .comment-meta a {
-	color: #f25f70;
+	color: #40ab6c;
 }
 .comment-meta a:hover {
 	color: #aaa;
@@ -1453,7 +1453,7 @@ blockquote cite {
 }
 .jetpack-testimonial .entry-title,
 .jetpack-testimonial-shortcode .testimonial-entry-title {
-	color: #f25f70;
+	color: #40ab6c;
 	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -1561,7 +1561,7 @@ blockquote cite {
 	color: #fff;
 }
 .site-info a:hover {
-	color: #f25f70;
+	color: #40ab6c;
 }
 
 /*--------------------------------------------------------------
