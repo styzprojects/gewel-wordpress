@@ -14,7 +14,7 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
 
 <?php
     $query = new WP_Query([
-        'category__in' => [8, 9],
+        'category__in' => [8, 9, 12],
         'posts_per_page' => 3,
         'post_type' => 'post',
     ]);
