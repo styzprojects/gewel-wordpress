@@ -1801,7 +1801,7 @@ video {
 	}
 	.main-navigation .nav-menu > li > a:after,
 	.main-navigation .menu > li > a:after {
-		color: #ffa4ad;
+		color: #1D914B;
 		content: " \2022";
 		margin-left: 1em;
 	}
