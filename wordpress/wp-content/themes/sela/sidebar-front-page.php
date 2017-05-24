@@ -149,10 +149,6 @@ if ( $query->have_posts() ):
     .widget-title:after {
         content: "";
     }
-	.timeline-Widget {
-		border-radius: 0;
-		border: 1px solid #e9ebee;
-	}
 	@media screen and (max-width: 600px) {
 		.front-widget-image-box {
 			display: block;
@@ -177,3 +173,10 @@ if ( $query->have_posts() ):
 	    width: 100% !important;
 	}
 </style>
+
+<script type="text/javascript">
+	$('iframe').load( function() {
+	$('iframe').contents().find(".timeline-Widget")
+	  .append($("<style type='text/css'>  .timeline-Widget{border-radius: 0; border: 1px solid #e9ebee;}  </style>"));
+	});
+</script>
