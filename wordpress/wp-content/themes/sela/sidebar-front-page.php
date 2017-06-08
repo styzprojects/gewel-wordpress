@@ -92,10 +92,21 @@ if ( $query->have_posts() ):
 
 <div class="front-widget-sns">
 	<div class="front-widget-sns-box">
-		<div class="fb-page" data-href="https://www.facebook.com/NPOGEWEL/" data-tabs="timeline" data-width="413" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/NPOGEWEL/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NPOGEWEL/">NPO法人GEWEL</a></blockquote></div>
+		<!-- background: #3b5998; -->
+		<p class="front-widget-sns-box-title front-widget-sns-box-title--fb">
+			<span style="display: inline-block; vertical-align: bottom;">facebookにいいねして最新情報をチェック</span>
+		</p>
+		<div class="front-widget-sns-box-inner">
+			<div class="fb-page" data-href="https://www.facebook.com/NPOGEWEL/" data-tabs="timeline" data-width="413" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/NPOGEWEL/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NPOGEWEL/">NPO法人GEWEL</a></blockquote></div>
+		</div>
 	</div>
 	<div class="front-widget-sns-box">
-		<a class="twitter-timeline" data-height="400" href="https://twitter.com/NPO_GEWEL">Tweets by NPO_GEWEL</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<p class="front-widget-sns-box-title front-widget-sns-box-title--tw">
+			<span style="display: inline-block; vertical-align: bottom;">twitterをフォロー</span>
+		</p>
+		<div class="front-widget-sns-box-inner" style="border: 1px solid #e9ebee;">
+			<a class="twitter-timeline" data-height="400" href="https://twitter.com/NPO_GEWEL">Tweets by NPO_GEWEL</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
 	</div>
 </div>
 
@@ -113,7 +124,7 @@ if ( $query->have_posts() ):
 		overflow: hidden;
 	}
 	.front-widget-sns-box {
-		width: 49%;
+		width: 48%;
 		float: left;
 	}
 	.front-widget-sns-box:first-child {
@@ -123,6 +134,31 @@ if ( $query->have_posts() ):
 		display: block;
 		width: 100%;
 		height: 200px;
+	}
+	.front-widget-sns-box-title {
+		padding: 10px;
+		color: white;
+		text-align: center;
+	}
+	.front-widget-sns-box-title--fb:before {
+		content: "\f204";
+		font-family: Genericons;
+		margin-right: 10px;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	.front-widget-sns-box-title--tw:before {
+		content: "\f202";
+		font-family: Genericons;
+		margin-right: 10px;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	.front-widget-sns-box-title--fb {
+		background: #3b5998;
+	}
+	.front-widget-sns-box-title--tw {
+		background: #68aade;
 	}
     .front-widget-read-more-holder {
     	margin-bottom: 40px;
