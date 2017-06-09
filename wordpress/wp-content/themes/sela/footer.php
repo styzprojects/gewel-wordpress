@@ -105,6 +105,9 @@
 				</ul>
 			</li>
 		</ul>
+		<div class="copyright">
+			Copyright © GEWEL All Rights Reserved. 
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
