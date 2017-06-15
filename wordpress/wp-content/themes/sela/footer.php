@@ -106,7 +106,7 @@
 			</li>
 		</ul>
 		<div class="copyright">
-			Copyright © GEWEL All Rights Reserved.
+			Copyright © GEWEL All Rights Reserved. 
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
@@ -126,10 +126,6 @@
 	.footer-list-item-title {
 		font-size: 16px;
 		font-weight: bold;
-		text-align: left;
-	}
-	.footer-inner-list {
-		margin-left: 0;
 	}
 	.footer-inner-list-item {
 		margin-bottom: 10px;

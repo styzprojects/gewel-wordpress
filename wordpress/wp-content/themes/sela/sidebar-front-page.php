@@ -31,16 +31,9 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
                     <aside class="widget widget_text">
                         <div class="textwidget">
                             <a href="<?php the_permalink(); ?>" class="front-widget-image">
-								<span class="front-widget-image-box-category">
-									<?php echo get_the_category()[count(get_the_category()) - 1]->cat_name ?>
-								</span>
-                                <span class="front-widget-image-box" style="background: url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center center; background-size: cover;"></span>
+                                <span class="front-widget-image-box" style="background: url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center center; background-size: cover;">
                             </a>
-                            <h3 class="widget-title">
-								<a href="<?php the_permalink(); ?>" >
-									<?php the_title() ?>
-								</a>
-							</h3>
+                            <h3 class="widget-title"><?php the_title() ?></h3>
                         </div>
                     </aside>
                 </div>
@@ -56,7 +49,7 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
 <?php
 $query = new WP_Query([
     'category__in' => [3, 4, 5, 6, 7],
-    'posts_per_page' => 6,
+    'posts_per_page' => 3,
     'post_type' => 'post',
 ]);
 if ( $query->have_posts() ):
@@ -72,16 +65,9 @@ if ( $query->have_posts() ):
                     <aside class="widget widget_text">
                         <div class="textwidget">
                             <a href="<?php the_permalink(); ?>" class="front-widget-image">
-								<span class="front-widget-image-box-category">
-									<?php echo get_the_category()[count(get_the_category()) - 1]->cat_name ?>
-								</span>
-								<span class="front-widget-image-box" style="background: url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center center; background-size: cover;"></span>
+								<span class="front-widget-image-box" style="background: url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center center; background-size: cover;">
                             </a>
-                            <h3 class="widget-title">
-								<a href="<?php the_permalink(); ?>" >
-									<?php the_title() ?>
-								</a>
-							</h3>
+                            <h3 class="widget-title"><?php the_title() ?></h3>
                         </div>
                     </aside>
                 </div>
@@ -144,29 +130,10 @@ if ( $query->have_posts() ):
 	.front-widget-sns-box:first-child {
 		margin-right: 2%;
 	}
-	.front-widget-image {
-		position: relative;
-	}
 	.front-widget-image-box {
 		display: block;
 		width: 100%;
 		height: 200px;
-	}
-	.front-widget-image-box:hover {
-		opacity: 0.8;
-	}
-	.front-widget-image-box-category {
-		position: absolute;
-		top: 0;
-		left: 0;
-		padding: 4px 5px 3px;
-		text-align: center;
-		background: #000;
-		opacity: 0.7;
-		width: 100px;
-		font-size: 12px;
-		z-index: 100;
-		color: white;
 	}
 	.front-widget-sns-box-title {
 		padding: 10px;
