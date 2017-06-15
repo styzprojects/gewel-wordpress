@@ -31,9 +31,12 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
                     <aside class="widget widget_text">
                         <div class="textwidget">
                             <a href="<?php the_permalink(); ?>" class="front-widget-image">
+								<span class="front-widget-image-category"><?php echo end(get_the_category())->cat_name ?></span>
                                 <span class="front-widget-image-box" style="background: url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center center; background-size: cover;">
                             </a>
-                            <h3 class="widget-title"><?php the_title() ?></h3>
+                            <h3 class="widget-title">
+								<a href="<?php the_permalink(); ?>"><?php the_title() ?></a>
+							</h3>
                         </div>
                     </aside>
                 </div>
@@ -49,7 +52,7 @@ if ( ! is_active_sidebar( 'sidebar-5' ) && ! is_active_sidebar( 'sidebar-6' ) &&
 <?php
 $query = new WP_Query([
     'category__in' => [3, 4, 5, 6, 7],
-    'posts_per_page' => 3,
+    'posts_per_page' => 6,
     'post_type' => 'post',
 ]);
 if ( $query->have_posts() ):
@@ -65,9 +68,12 @@ if ( $query->have_posts() ):
                     <aside class="widget widget_text">
                         <div class="textwidget">
                             <a href="<?php the_permalink(); ?>" class="front-widget-image">
+								<span class="front-widget-image-category"><?php echo end(get_the_category())->cat_name ?></span>
 								<span class="front-widget-image-box" style="background: url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center center; background-size: cover;">
                             </a>
-                            <h3 class="widget-title"><?php the_title() ?></h3>
+                            <h3 class="widget-title">
+								<a href="<?php the_permalink(); ?>"><?php the_title() ?></a>
+							</h3>
                         </div>
                     </aside>
                 </div>
@@ -129,6 +135,22 @@ if ( $query->have_posts() ):
 	}
 	.front-widget-sns-box:first-child {
 		margin-right: 2%;
+	}
+	.front-widget-image {
+		position: relative;
+	}
+	.front-widget-image-category {
+		position:absolute;
+		top: 0;
+		left: 0;
+		opacity: 0.7;
+		font-size: 12px;
+		padding: 6px 15px 6px;
+		width: 100px;
+		background: black;
+		z-index: 100;
+		text-align: center;
+		color: white;
 	}
 	.front-widget-image-box {
 		display: block;
