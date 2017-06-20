@@ -606,9 +606,11 @@ textarea {
 }
 .social-links ul a[href*='facebook.com']:before {
     content: '\f204';
+	font-family: Genericons!important;
 }
 .social-links ul a[href*='twitter.com']:before {
     content: '\f202';
+	font-family: Genericons!important;
 }
 .social-links ul a[href*='dribbble.com']:before {
     content: '\f201';
