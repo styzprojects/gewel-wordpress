@@ -1381,6 +1381,9 @@ blockquote cite {
 	text-align: center;
 	vertical-align: middle;
 }
+.hero-container-inner h3 {
+	padding-top: 50px;
+}
 .front-page-content-area .with-featured-image {
 	border-bottom: 1px solid #f2f2f2;
 	padding-right: 4.661%;
