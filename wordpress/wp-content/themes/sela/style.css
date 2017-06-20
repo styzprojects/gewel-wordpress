@@ -1086,6 +1086,7 @@ textarea {
 }
 .post .entry-title {
 	padding-bottom: 10px;
+	border-bottom: 2px solid;
 	color: #40ab6c!important;
 }
 .entry-content ul li,
@@ -1098,12 +1099,8 @@ textarea {
 .post .entry-content h1 {
 	border-bottom: 2px solid;
 	padding-bottom: 10px;
-	font-size: font-size: 3.2rem;
+	font-size: 3.2rem;
 	color: #40ab6c!important;
-}
-.post .entry-content h1 {
-	border-bottom: 2px solid;
-	padding-bottom: 10px;
 }
 .post .entry-content h2 {
 	line-height: 1.4;
@@ -2181,4 +2178,12 @@ video {
 		max-width: 100%;
 		margin: 0 55px 0 0;
 	}
+}
+
+/* custom styles for gewel*/
+.cat-links a {
+	font-family: "メイリオ", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+.nav-links a {
+	font-family: "メイリオ", "Hiragino Kaku Gothic ProN", sans-serif;
 }
