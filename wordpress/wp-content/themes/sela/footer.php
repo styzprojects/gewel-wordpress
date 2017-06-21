@@ -20,7 +20,7 @@
 				<p class="footer-list-item-title">GEWELについて</p>
 				<ul class="footer-inner-list">
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/about/greetings/">代表理事よりご挨拶</a>
+						<a class="footer-inner-list-item-link" href="/about/greetings/">代表理事挨拶</a>
 					</li>
 					<li class="footer-inner-list-item">
 						<a class="footer-inner-list-item-link" href="/about/board-members/">理事紹介</a>
@@ -29,13 +29,13 @@
 						<a class="footer-inner-list-item-link" href="/about/advisor-introduction/">アドバイザー紹介</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/about/related-organizations/">関係組織</a>
-					</li>
-					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/about/other-information/">設立経緯・沿革・メディア掲載</a>
+						<a class="footer-inner-list-item-link" href="/about/organization-overview/">団体概要・設立経緯・沿革</a>
 					</li>
 					<li class="footer-inner-list-item">
 						<a class="footer-inner-list-item-link" href="/about/contact/">お問い合わせ</a>
+					</li>
+					<li class="footer-inner-list-item">
+						<a class="footer-inner-list-item-link" href="/about/related-organizations/">関係組織</a>
 					</li>
 					<li class="footer-inner-list-item">
 						<a class="footer-inner-list-item-link" href="/about/privacy-policy/">個人情報保護方針</a>
@@ -49,7 +49,7 @@
 						<a class="footer-inner-list-item-link" href="/vision/detail/">ビジョン・ミッション</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/d-i/">ダイバーシティ＆インクルージョンとは</a>
+						<a class="footer-inner-list-item-link" href="/d-i/">ダイバーシティ＆インクルージョンについて</a>
 					</li>
 				</ul>
 			</li>
@@ -57,13 +57,13 @@
 				<p class="footer-list-item-title">事業内容</p>
 				<ul class="footer-inner-list">
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/business/enlight-and-educate/">啓発・育成事業</a>
+						<a class="footer-inner-list-item-link" href="/business/enlight-and-educate/">啓発育成</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/business/research/">調査・研究事業</a>
+						<a class="footer-inner-list-item-link" href="/business/research/">調査研究</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/business/体験・共有事業/">体験・共有事業</a>
+						<a class="footer-inner-list-item-link" href="/business/experience/">体験共有</a>
 					</li>
 				</ul>
 			</li>
@@ -77,10 +77,10 @@
 						<a class="footer-inner-list-item-link" href="/supporter/">個人会員</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/participation/volunteer/">ボランティア</a>
+						<a class="footer-inner-list-item-link" href="/participation/volunteer/">ボランティア、プロボノ</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/participation/mail-magazine/">メールマガジン</a>
+						<a class="footer-inner-list-item-link" href="/participation/mail-magazine/">メルマガ</a>
 					</li>
 				</ul>
 			</li>
@@ -88,19 +88,19 @@
 				<p class="footer-list-item-title">インクルージョンラボ</p>
 				<ul class="footer-inner-list">
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/interview/">インタビュー</a>
-					</li>
-					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/examples/">「啓発」事例</a>
-					</li>
-					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/research/">「調査」データ</a>
-					</li>
-					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/experience-examples/">「体験」事例</a>
+						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/interview/">D&Iインタビュー</a>
 					</li>
 					<li class="footer-inner-list-item">
 						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/event-reports/">イベントレポート</a>
+					</li>
+					<li class="footer-inner-list-item">
+						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/examples/">啓発事例</a>
+					</li>
+					<li class="footer-inner-list-item">
+						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/experience-examples/">体験事例</a>
+					</li>
+					<li class="footer-inner-list-item">
+						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/research/">調査レポート</a>
 					</li>
 				</ul>
 			</li>
