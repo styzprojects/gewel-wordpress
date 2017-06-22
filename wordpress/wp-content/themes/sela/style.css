@@ -2184,6 +2184,9 @@ video {
 }
 
 /* custom styles for gewel*/
+.cat-item .cat-item-1 {
+	display: none;
+}
 .cat-links {
 	font-style: normal;
 	font-family: "メイリオ", "Hiragino Kaku Gothic ProN", sans-serif;
