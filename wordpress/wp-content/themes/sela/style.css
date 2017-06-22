@@ -2184,7 +2184,7 @@ video {
 }
 
 /* custom styles for gewel*/
-.cat-item .cat-item-1 {
+.cat-item.cat-item-1 {
 	display: none;
 }
 .cat-links {
