@@ -97,10 +97,10 @@
 						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/examples/">啓発事例</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/experience-examples/">体験事例</a>
+						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/research/">調査レポート</a>
 					</li>
 					<li class="footer-inner-list-item">
-						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/research/">調査レポート</a>
+						<a class="footer-inner-list-item-link" href="/category/inclusion-lab/experience-examples/">体験事例</a>
 					</li>
 				</ul>
 			</li>
