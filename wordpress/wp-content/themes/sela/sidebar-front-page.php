@@ -139,6 +139,7 @@ if ( $query->have_posts() ):
 	}
 	.front-widget-image {
 		position: relative;
+		display: block;
 	}
 	.front-widget-image-category {
 		position:absolute;
