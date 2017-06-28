@@ -195,7 +195,7 @@ if ( $query->have_posts() ):
 		background: #40ab6c;
 	}
     .front-widget-heading {
-        padding: 3em 4.661% 0;
+        padding: 3em 4.661% 1em;
     }
     .front-widget-heading > h2 {
         margin: 0;

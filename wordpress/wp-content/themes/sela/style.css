@@ -1944,12 +1944,16 @@ video {
 	}
 
 	/* Front Page & Footer Widget Areas */
+	.footer-widget-area {
+		font-siz: 0;
+	}
 	.footer-widget-area .widget-area {
 		margin: 0;
 	}
 	.front-widget-area .widget-area,
 	.footer-widget-area .widget-area {
-		float: left;
+		display: inline-block;
+		vertical-align: top;
 	}
 	/*.front-widget-area .widget-area:nth-child(1):nth-last-child(1),
 	.footer-widget-area .widget-area:nth-child(1):nth-last-child(1) {
