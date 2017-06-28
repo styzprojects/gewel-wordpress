@@ -123,6 +123,7 @@ if ( $query->have_posts() ):
     .front-widget-area {
 		padding-bottom: 20px;
         border: none;
+		font-size: 0;
     }
 	.front-widget-sns {
 		width: 70%;
